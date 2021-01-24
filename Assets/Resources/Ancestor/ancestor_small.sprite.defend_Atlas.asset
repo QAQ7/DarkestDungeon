@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a629f2ad2d39e4bb42511c4cd32a32, type: 3}
+  m_Name: ancestor_small.sprite.defend_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 86c329de473eb6c44abdfff6436d451a, type: 3}
+  materials:
+  - {fileID: 2100000, guid: e420a1bd576357c4cbb2d50c5c8df108, type: 2}
