@@ -1,0 +1,74 @@
+hall: .chance 1 .types carrion_eater_C carrion_eater_C carrion_eater_C 
+hall: .chance 1 .types carrion_eater_C carrion_eater_C swine_drummer_C 
+hall: .chance 1 .types carrion_eater_C carrion_eater_C swine_wretch_C 
+hall: .chance 1 .types carrion_eater_C swine_reaver_C swine_drummer_C 
+hall: .chance 1 .types carrion_eater_C swine_reaver_C swine_wretch_C 
+hall: .chance 1 .types carrion_eater_C swine_reaver_C swine_skiver_C 
+hall: .chance 1 .types carrion_eater_big_C swine_drummer_C  
+hall: .chance 1 .types carrion_eater_big_C swine_wretch_C  
+hall: .chance 1 .types carrion_eater_big_C swine_reaver_C  
+hall: .chance 1 .types swine_wretch_C swine_wretch_C swine_wretch_C 
+hall: .chance 1 .types swine_slasher_C swine_slasher_C swine_wretch_C swine_wretch_C
+hall: .chance 1 .types swine_slasher_C swine_slasher_C swine_wretch_C swine_skiver_C
+hall: .chance 1 .types carrion_eater_big_C swine_reaver_C swine_skiver_C 
+hall: .chance 1 .types swine_reaver_C swine_slasher_C swine_drummer_C 
+hall: .chance 1 .types swine_reaver_C swine_slasher_C swine_wretch_C 
+hall: .chance 1 .types swine_reaver_C swine_slasher_C swine_drummer_C swine_skiver_C
+hall: .chance 1 .types swine_reaver_C swine_slasher_C swine_skiver_C 
+hall: .chance 1 .types carrion_eater_C carrion_eater_C swine_skiver_C 
+hall: .chance 2 .types cultist_brawler_C cultist_brawler_C cultist_witch_C 
+hall: .chance 1 .types cultist_brawler_C cultist_brawler_C swine_drummer_C 
+hall: .chance 1 .types cultist_brawler_C cultist_brawler_C swine_wretch_C 
+hall: .chance 1 .types carrion_eater_big_C cultist_witch_C  
+hall: .chance 3 .types maggot_C maggot_C ghoul_C 
+hall: .chance 2 .types carrion_eater_C carrion_eater_C ghoul_C 
+hall: .chance 2 .types carrion_eater_big_C ghoul_C  
+hall: .chance 2 .types swine_reaver_C ghoul_C  
+hall: .chance 2 .types ghoul_C swine_wretch_C  
+hall: .chance 2 .types ghoul_C swine_drummer_C  
+hall: .chance 2 .types ghoul_C swine_skiver_C  
+hall: .chance 1 .types maggot_C maggot_C maggot_C maggot_C
+hall: .chance 2 .types spider_webber_C spider_webber_C spider_spitter_C 
+hall: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C spider_spitter_C
+hall: .chance 1 .types maggot_C maggot_C spider_spitter_C 
+hall: .chance 1 .types skeleton_common_C skeleton_common_C carrion_eater_C 
+hall: .chance 2 .types skeleton_common_C cultist_brawler_C cultist_witch_C 
+hall: .chance 2 .types swine_slasher_C swine_slasher_C swine_wretch_C madman_C
+hall: .chance 1 .types brigand_blood_C brigand_cutthroat_C brigand_fusilier_C 
+hall: .chance 1 .types brigand_cutthroat_C brigand_raider_D brigand_fusilier_C 
+hall: .chance 1 .types brigand_cutthroat_C brigand_cutthroat_C brigand_fusilier_C brigand_hunter_D
+room: .chance 1 .types carrion_eater_C carrion_eater_C carrion_eater_C swine_drummer_C
+room: .chance 1 .types carrion_eater_C carrion_eater_C swine_drummer_C swine_wretch_C
+room: .chance 1 .types carrion_eater_C swine_slasher_C swine_drummer_C swine_skiver_C
+room: .chance 3 .types swine_reaver_C swine_slasher_C swine_drummer_C swine_wretch_C
+room: .chance 2 .types swine_reaver_C swine_slasher_C swine_wretch_C swine_wretch_C
+room: .chance 1 .types swine_reaver_C swine_slasher_C swine_wretch_C swine_skiver_C
+room: .chance 1 .types carrion_eater_big_C swinetaur_C  
+room: .chance 1 .types carrion_eater_big_C carrion_eater_C carrion_eater_C 
+room: .chance 1 .types carrion_eater_big_C carrion_eater_C swine_wretch_C 
+room: .chance 1 .types swinetaur_C swine_drummer_C swine_wretch_C 
+room: .chance 1 .types swine_reaver_C swinetaur_C swine_drummer_C 
+room: .chance 1 .types swine_reaver_C swinetaur_C swine_wretch_C 
+room: .chance 1 .types swine_slasher_C swinetaur_C swine_drummer_C 
+room: .chance 2 .types swine_reaver_C cultist_brawler_C swine_wretch_C swine_skiver_C
+room: .chance 1 .types swine_reaver_C cultist_brawler_C swine_wretch_C swine_drummer_C
+room: .chance 1 .types cultist_brawler_C cultist_brawler_C swine_drummer_C swine_wretch_C
+room: .chance 1 .types carrion_eater_big_C carrion_eater_C swine_skiver_C 
+room: .chance 2 .types swine_slasher_C swine_drummer_C swinetaur_C 
+room: .chance 1 .types swinetaur_C cultist_brawler_C cultist_witch_C 
+room: .chance 1 .types swine_reaver_C swine_slasher_C swine_skiver_C madman_C
+room: .chance 1 .types swinetaur_C swine_wretch_C madman_C 
+room: .chance 1 .types brigand_cutthroat_C brigand_cutthroat_C brigand_hunter_D 
+room: .chance 1 .types brigand_raider_D brigand_raider_D brigand_hunter_D 
+room: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C spider_spitter_C
+room: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C 
+room: .chance 1 .types brigand_blood_C brigand_cutthroat_C brigand_fusilier_C 
+boss: .chance 1 .types swine_prince_C swine_piglet_C  
+boss: .chance 1 .types formless_melee_C formless_guard_C formless_weak_C formless_ranged_C
+stall: .chance 2 .types cultist_brawler_C cultist_witch_C  
+stall: .chance 1 .types swine_reaver_C swine_drummer_C  
+stall: .chance 1 .types swine_reaver_C swine_wretch_C  
+stall: .chance 1 .types ghoul_C   
+stall: .chance 1 .types swine_reaver_C swine_reaver_C  
+stall: .chance 1 .types swine_skiver_C   
+named: .name summon_mash_shambler .chance 1 .types shambler_C

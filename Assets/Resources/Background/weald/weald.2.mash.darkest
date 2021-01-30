@@ -1,0 +1,39 @@
+hall: .chance 1 .types unclean_giant_A rabid_dog_A rabid_dog_A 
+hall: .chance 1 .types ectoplasm_A ectoplasm_A  
+hall: .chance 1 .types ectoplasm_large_A ectoplasm_A  
+hall: .chance 1 .types unclean_giant_A crone_A  
+hall: .chance 1 .types rabid_dog_A rabid_dog_A rabid_dog_A rabid_dog_A
+hall: .chance 1 .types fungal_bloat_A fungal_bloat_A fungal_artillery_A 
+hall: .chance 1 .types brigand_cutthroat_A brigand_blood_A brigand_fusilier_A 
+hall: .chance 1 .types maggot_A maggot_A maggot_A maggot_A
+hall: .chance 1 .types spider_webber_A spider_webber_A spider_webber_A 
+hall: .chance 1 .types cultist_brawler_A fungal_bloat_A cultist_witch_A 
+hall: .chance 1 .types rabid_dog_A rabid_dog_A crone_A 
+hall: .chance 1 .types maggot_A maggot_A spider_spitter_A 
+room: .chance 1 .types unclean_giant_A rabid_dog_A rabid_dog_A 
+room: .chance 1 .types ectoplasm_large_A ectoplasm_A  
+room: .chance 1 .types unclean_giant_A crone_A fungal_artillery_A 
+room: .chance 1 .types rabid_dog_A rabid_dog_A rabid_dog_A rabid_dog_A
+room: .chance 1 .types fungal_bloat_A fungal_bloat_A fungal_artillery_A fungal_artillery_A
+room: .chance 1 .types rabid_dog_A rabid_dog_A rabid_dog_A crone_A
+room: .chance 1 .types fungal_bloat_A fungal_bloat_A rabid_dog_A crone_A
+room: .chance 1 .types fungal_bloat_A fungal_bloat_A fungal_artillery_A crone_A
+room: .chance 1 .types unclean_giant_A rabid_dog_A crone_A 
+room: .chance 1 .types brigand_cutthroat_A brigand_blood_A brigand_fusilier_A 
+room: .chance 1 .types maggot_A maggot_A maggot_A maggot_A
+room: .chance 1 .types maggot_A maggot_A spider_webber_A spider_webber_A
+room: .chance 1 .types cultist_brawler_A cultist_brawler_A fungal_bloat_A cultist_witch_A
+room: .chance 1 .types unclean_giant_A ectoplasm_A  
+room: .chance 1 .types unclean_giant_A unclean_giant_A  
+room: .chance 1 .types fungal_bloat_A maggot_A spider_webber_A spider_webber_A
+room: .chance 1 .types cultist_brawler_A cultist_brawler_A cultist_witch_A fungal_artillery_A
+room: .chance 1 .types unclean_giant_A cultist_witch_A fungal_artillery_A 
+room: .chance 1 .types rabid_dog_A rabid_dog_A spider_spitter_A spider_spitter_A
+boss: .chance 1 .types necromancer_A   
+
+named: .name summon_mash .chance 1 .types rabid_dog_B rabid_dog_B rabid_dog_B 
+named: .name summon_mash .chance 1 .types ectoplasm_B ectoplasm_B ectoplasm_B
+named: .name summon_mash .chance 1 .types fungal_bloat_B fungal_bloat_B fungal_artillery_B
+named: .name summon_mash .chance 1 .types unclean_giant_B fungal_bloat_B fungal_artillery_B
+named: .name summon_mash .chance 1 .types brigand_blood_B brigand_cutthroat_B brigand_fusilier_B 
+named: .name summon_mash_shambler .chance 1 .types shambler_A

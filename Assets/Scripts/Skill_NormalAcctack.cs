@@ -6,6 +6,7 @@ public class Skill_NormalAcctack : Skill
 {
     public override void skillInit()
     {
+        spriteName = "a";
         skillType = SkillType.acctack;
         value = -1;
         sourceAnimState = "isChopAcctacking";

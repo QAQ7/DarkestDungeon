@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public abstract class Hero : Creture
 {
-    public List<GameObject> skill_button;
+    public string[] skillName;
 
     // Start is called before the first frame update
 
@@ -15,19 +17,31 @@ public abstract class Hero : Creture
 
     public void skillButtonInit()
     {
-        for (int i = 0; i < skill_button.Count; i++)
-        {
-            skill_button[i] = Instantiate(skill_button[i], new Vector3(this.gameObject.transform.position.x+i*50, this.gameObject.transform.position.y - 50 ,0), Quaternion.identity);
-            skill_button[i].SetActive(false);
-            skill_button[i].transform.SetParent(GameManager.canvas.transform);
-        }
+        //for (int i = 0; i < skillName.Length; i++)
+        //{
+        //    Type type = Type.GetType(skillName[i]);
+        //    GameManager.skillButtons[i].AddComponent(type);
+            //GameManager.skillButtons[i] = Instantiate(GameManager.skillButtons[i], new Vector3(this.gameObject.transform.position.x+i*50, this.gameObject.transform.position.y - 50 ,0), Quaternion.identity);
+            //GameManager.skillButtons[i].SetActive(false);
+            //GameManager.skillButtons[i].transform.SetParent(GameManager.canvas.transform);
+        //}
     }
 
     public void setSkillButtonActive(bool a)
     {
-        for (int i = 0; i < skill_button.Count; i++)
+        for (int i = 0; i < skillName.Length; i++)
         {
-            skill_button[i].SetActive(a);
+            GameManager.skillButtons[i].SetActive(a);
+        }
+        if (a) {
+            for (int i = 0; i < skillName.Length; i++)
+            {
+                Type type = Type.GetType(skillName[i]);
+                Skill skill = (Skill)GameManager.skillButtons[i].AddComponent(type);
+                GameManager.skillButtons[i].GetComponent<Image>().sprite = GameManager.sprites[skillName[i]];
+                GameManager.skillButtons[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
+                GameManager.skillButtons[i].GetComponent<Skill_Button>().skill = skill;
+            }
         }
     }
 

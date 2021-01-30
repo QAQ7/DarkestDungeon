@@ -13,7 +13,7 @@ public class Skill_Button : MonoBehaviour
 
     private void Awake()
     {
-        this.gameObject.GetComponent<Image>().sprite = icon;
+        //this.gameObject.GetComponent<Image>().sprite = icon;
     }
 
     void Start()
@@ -28,7 +28,6 @@ public class Skill_Button : MonoBehaviour
     }
 
     public void onClick() {
-        Debug.Log("click()");
         if (skill!=null) { 
             GameManager.Skill_Cur = this.skill;
             Debug.Log(GameManager.Skill_Cur.name);

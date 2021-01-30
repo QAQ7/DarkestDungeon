@@ -1,0 +1,44 @@
+hall: .chance 1 .types skeleton_militia_B skeleton_militia_B  
+hall: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_militia_B 
+hall: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_militia_B skeleton_militia_B
+hall: .chance 1 .types skeleton_defender_B skeleton_militia_B skeleton_arbalist_B 
+hall: .chance 1 .types skeleton_militia_B skeleton_defender_B  
+hall: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_arbalist_B skeleton_arbalist_B
+hall: .chance 1 .types skeleton_defender_B skeleton_defender_B skeleton_arbalist_B skeleton_arbalist_B
+hall: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_courtier_B 
+hall: .chance 1 .types skeleton_defender_B skeleton_militia_B skeleton_courtier_B 
+hall: .chance 1 .types skeleton_militia_B skeleton_defender_B skeleton_arbalist_B skeleton_courtier_B
+hall: .chance 1 .types skeleton_captain_B skeleton_arbalist_B skeleton_arbalist_B 
+hall: .chance 1 .types brigand_cutthroat_B brigand_blood_B brigand_fusilier_B 
+hall: .chance 1 .types maggot_B maggot_B  
+hall: .chance 1 .types spider_webber_B spider_webber_B  
+hall: .chance 1 .types cultist_brawler_B skeleton_militia_B cultist_witch_B 
+hall: .chance 1 .types gargoyle_B gargoyle_B  
+hall: .chance 1 .types maggot_B maggot_B spider_spitter_B 
+room: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_spear_B skeleton_spear_B
+room: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_militia_B skeleton_courtier_B
+room: .chance 1 .types skeleton_militia_B skeleton_militia_B skeleton_arbalist_B skeleton_arbalist_B
+room: .chance 1 .types skeleton_spear_B skeleton_spear_B skeleton_arbalist_B skeleton_arbalist_B
+room: .chance 1 .types skeleton_defender_B skeleton_spear_B skeleton_arbalist_B skeleton_arbalist_B
+room: .chance 1 .types skeleton_defender_B skeleton_defender_B skeleton_courtier_B skeleton_courtier_B
+room: .chance 1 .types skeleton_defender_B skeleton_defender_B skeleton_spear_B skeleton_arbalist_B
+room: .chance 1 .types skeleton_captain_B skeleton_spear_B skeleton_arbalist_B 
+room: .chance 1 .types skeleton_captain_B skeleton_arbalist_B skeleton_arbalist_B 
+room: .chance 1 .types skeleton_captain_B skeleton_courtier_B skeleton_courtier_B 
+room: .chance 1 .types skeleton_captain_B skeleton_spear_B skeleton_courtier_B 
+room: .chance 1 .types skeleton_captain_B skeleton_spear_B skeleton_spear_B 
+room: .chance 1 .types skeleton_captain_B skeleton_arbalist_B skeleton_arbalist_B 
+room: .chance 1 .types skeleton_captain_B cultist_witch_B  
+room: .chance 1 .types maggot_B maggot_B spider_webber_B spider_webber_B
+room: .chance 1 .types cultist_brawler_B cultist_brawler_B skeleton_arbalist_B skeleton_courtier_B
+room: .chance 1 .types gargoyle_B gargoyle_B skeleton_arbalist_B skeleton_courtier_B
+room: .chance 1 .types spider_webber_B spider_webber_B spider_spitter_B spider_spitter_B
+room: .chance 1 .types gargoyle_B gargoyle_B spider_spitter_B spider_spitter_B
+boss: .chance 1 .types necromancer_B   
+
+named: .name summon_mash .chance 1 .types skeleton_common_C skeleton_common_C skeleton_common_C
+named: .name summon_mash .chance 1 .types skeleton_captain_C skeleton_defender_C skeleton_courtier_C
+named: .name summon_mash .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C
+named: .name summon_mash .chance 1 .types skeleton_defender_C cultist_brawler_C cultist_witch_C
+named: .name summon_mash .chance 1 .types maggot_C maggot_C maggot_C
+named: .name summon_mash_shambler .chance 1 .types shambler_B

@@ -12,6 +12,7 @@ public abstract class Skill : MonoBehaviour
 
     }
 
+    public string spriteName;
     public GameObject source;
     public bool isPlayingSourceAnim = false;
     public GameObject target;
@@ -67,6 +68,15 @@ public abstract class Skill : MonoBehaviour
     private void Awake()
     {
         skillInit();
+    }
+
+    public void OnDestory() {
+        if (this.gameObject.GetComponent<Skill_Button>() != null) {
+            this.gameObject.GetComponent<Image>().sprite = null;
+            this.gameObject.GetComponent<Image>().color = new Color(1, 1, 1, 0);
+            this.gameObject.GetComponent<Skill_Button>().skill = null;
+            this.gameObject.SetActive(false);
+        }
     }
 
     public void Update()

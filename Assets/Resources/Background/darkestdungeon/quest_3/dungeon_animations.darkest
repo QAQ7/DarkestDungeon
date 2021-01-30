@@ -1,0 +1,24 @@
+
+corridor_animation_data_1:
+    .background_absolute_movement 0.1 0.0
+    .background_relative_movement 0.0 0.0
+    .midground_absolute_movement  0.0 0.0
+    .midground_relative_movement 0.0 0.0
+    .foreground_absolute_movement 0.05 0.0
+    .foreground_relative_movement 0.0 0.0
+
+corridor_animation_data_2:
+    .background_absolute_movement 0.2 0.0
+    .background_relative_movement 0.0 0.0
+    .midground_absolute_movement  0.0 0.0
+    .midground_relative_movement 0.0 0.0
+    .foreground_absolute_movement -0.05 0.0
+    .foreground_relative_movement 0.0 0.0
+
+corridor_animation_data_3:
+    .background_absolute_movement -0.1 0.0
+    .background_relative_movement 0.0 0.0
+    .midground_absolute_movement  0.0 0.0
+    .midground_relative_movement 0.0 0.0
+    .foreground_absolute_movement -0.05 0.0
+    .foreground_relative_movement 0.0 0.0

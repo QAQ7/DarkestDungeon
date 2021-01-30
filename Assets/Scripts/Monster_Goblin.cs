@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Monster_Goblin : Monster
 {
-    public override void animatorInit()
-    {
-        animator = this.gameObject.GetComponent<Animator>();
-    }
 
     public override Skill getHitSkill()
     {

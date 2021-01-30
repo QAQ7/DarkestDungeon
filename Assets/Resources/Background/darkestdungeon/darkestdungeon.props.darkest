@@ -1,0 +1,5 @@
+hall_curios: .chance 1 .types stack_of_books discarded_pack sconce crate sack
+room_curios: .chance 1 .types stack_of_books discarded_pack sconce crate sack
+room_treasures: .chance 1 .types unlocked_strongbox locked_strongbox heirloom_chest
+traps: .chance 1 .types spikes
+obstacles: .chance 1 .types rubble

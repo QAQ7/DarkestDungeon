@@ -5,11 +5,6 @@ using UnityEngine;
 public class Monster_Ancestor : Monster
 {
 
-    public override void animatorInit()
-    {
-        animator = this.gameObject.GetComponent<Animator>();
-    }
-
     public override Skill getHitSkill()
     {
         return skill[0];

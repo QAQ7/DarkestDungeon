@@ -1,0 +1,38 @@
+
+hall: .chance 4 .types skeleton_militia_A skeleton_militia_A  
+hall: .chance 3 .types skeleton_militia_A skeleton_militia_A skeleton_militia_A
+hall: .chance 2 .types skeleton_militia_A skeleton_militia_A skeleton_militia_A skeleton_militia_A
+hall: .chance 3 .types skeleton_spear skeleton_spear  
+hall: .chance 3 .types skeleton_defender skeleton_militia_A skeleton_militia_A 
+hall: .chance 1 .types skeleton_defender skeleton_spear skeleton_spear 
+hall: .chance 1 .types skeleton_defender skeleton_defender skeleton_spear
+hall: .chance 1 .types skeleton_militia_A skeleton_defender skeleton_spear skeleton_arbalist
+hall: .chance 1 .types skeleton_militia_A skeleton_militia_A skeleton_arbalist skeleton_arbalist
+hall: .chance 1 .types skeleton_defender skeleton_defender skeleton_arbalist skeleton_arbalist
+hall: .chance 2 .types skeleton_militia_A skeleton_militia_A skeleton_courtier 
+hall: .chance 1 .types skeleton_defender skeleton_defender skeleton_courtier 
+hall: .chance 1 .types skeleton_defender skeleton_defender skeleton_spear skeleton_courtier
+hall: .chance 1 .types skeleton_militia_A skeleton_defender skeleton_arbalist skeleton_courtier
+hall: .chance 1 .types skeleton_defender skeleton_defender skeleton_courtier skeleton_courtier
+hall: .chance 1 .types skeleton_captain skeleton_arbalist 
+hall: .chance 8 .types maggot maggot maggot maggot
+hall: .chance 2 .types ghoul   
+hall: .chance 1 .types ghoul ghoul  
+hall: .chance 4 .types ghoul maggot maggot
+hall: .chance 4 .types carrion_eater	carrion_eater	carrion_eater	carrion_eater
+
+room: .chance 1 .types skeleton_defender skeleton_defender skeleton_arbalist skeleton_courtier
+room: .chance 1 .types skeleton_militia_A skeleton_militia_A skeleton_spear skeleton_spear
+room: .chance 1 .types skeleton_militia_A skeleton_militia_A skeleton_militia_A skeleton_courtier
+room: .chance 1 .types skeleton_militia_A skeleton_militia_A skeleton_arbalist skeleton_arbalist
+room: .chance 1 .types skeleton_spear skeleton_spear skeleton_arbalist skeleton_arbalist
+room: .chance 1 .types skeleton_defender skeleton_spear skeleton_arbalist skeleton_arbalist
+room: .chance 1 .types skeleton_defender skeleton_defender skeleton_courtier skeleton_courtier
+room: .chance 1 .types skeleton_defender skeleton_defender skeleton_spear skeleton_arbalist
+room: .chance 1 .types skeleton_captain skeleton_spear skeleton_arbalist 
+room: .chance 1 .types skeleton_captain skeleton_arbalist skeleton_arbalist 
+room: .chance 1 .types skeleton_captain skeleton_courtier skeleton_courtier 
+room: .chance 1 .types skeleton_captain skeleton_spear skeleton_courtier 
+room: .chance 1 .types ghoul ghoul  
+room: .chance 1 .types ghoul skeleton_spear skeleton_spear 
+room: .chance 1 .types ghoul skeleton_arbalist skeleton_arbalist 

@@ -1,0 +1,32 @@
+hall: .chance 1 .types unclean_giant_B rabid_dog_B rabid_dog_B 
+hall: .chance 1 .types ectoplasm_B ectoplasm_B  
+hall: .chance 1 .types ectoplasm_large_B ectoplasm_B  
+hall: .chance 1 .types unclean_giant_B crone_B  
+hall: .chance 1 .types rabid_dog_B rabid_dog_B rabid_dog_B rabid_dog_B
+hall: .chance 1 .types fungal_bloat_B fungal_bloat_B fungal_artillery_B 
+hall: .chance 1 .types brigand_cutthroat_B brigand_blood_B brigand_fusilier_B 
+hall: .chance 1 .types maggot_B maggot_B maggot_B maggot_B
+hall: .chance 1 .types spider_webber_B spider_webber_B spider_webber_B 
+hall: .chance 1 .types cultist_brawler_B fungal_bloat_B cultist_witch_B 
+hall: .chance 1 .types rabid_dog_B rabid_dog_B crone_B 
+hall: .chance 1 .types maggot_B maggot_B spider_spitter_B 
+room: .chance 1 .types unclean_giant_B rabid_dog_B rabid_dog_B 
+room: .chance 1 .types ectoplasm_large_B ectoplasm_B  
+room: .chance 1 .types unclean_giant_B crone_B fungal_artillery_B 
+room: .chance 1 .types rabid_dog_B rabid_dog_B rabid_dog_B rabid_dog_B
+room: .chance 1 .types fungal_bloat_B fungal_bloat_B fungal_artillery_B fungal_artillery_B
+room: .chance 1 .types rabid_dog_B rabid_dog_B rabid_dog_B crone_B
+room: .chance 1 .types fungal_bloat_B fungal_bloat_B rabid_dog_B crone_B
+room: .chance 1 .types fungal_bloat_B fungal_bloat_B fungal_artillery_B crone_B
+room: .chance 1 .types unclean_giant_B rabid_dog_B crone_B 
+room: .chance 1 .types brigand_cutthroat_B brigand_blood_B brigand_fusilier_B 
+room: .chance 1 .types maggot_B maggot_B maggot_B maggot_B
+room: .chance 1 .types maggot_B maggot_B spider_webber_B spider_webber_B
+room: .chance 1 .types cultist_brawler_B cultist_brawler_B fungal_bloat_B cultist_witch_B
+room: .chance 1 .types unclean_giant_B ectoplasm_B  
+room: .chance 1 .types unclean_giant_B unclean_giant_B  
+room: .chance 1 .types fungal_bloat_B maggot_B spider_webber_B spider_webber_B
+room: .chance 1 .types cultist_brawler_B cultist_brawler_B cultist_witch_B fungal_artillery_B
+room: .chance 1 .types unclean_giant_B cultist_witch_B fungal_artillery_B 
+room: .chance 1 .types rabid_dog_B rabid_dog_B spider_spitter_B spider_spitter_B
+boss: .chance 1 .types necromancer_B   

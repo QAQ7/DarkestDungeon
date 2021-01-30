@@ -1,0 +1,44 @@
+hall: .chance 2 .types fishman_harpoon_A fishman_harpoon_A fishman_harpoon_A 
+hall: .chance 2 .types fishman_harpoon_A fishman_harpoon_A fishman_harpoon_A fishman_harpoon_A
+hall: .chance 2 .types fishman_harpoon_A fishman_harpoon_A fishman_shaman_A 
+hall: .chance 1 .types fishman_harpoon_A snail_urchin_A fishman_harpoon_A 
+hall: .chance 1 .types fishman_harpoon_A snail_urchin_A fishman_harpoon_A fishman_shaman_A
+hall: .chance 1 .types snail_urchin_A snail_urchin_A jellyfish_A jellyfish_A
+hall: .chance 1 .types jellyfish_A jellyfish_A fishman_harpoon_A 
+hall: .chance 1 .types jellyfish_A jellyfish_A fishman_shaman_A 
+hall: .chance 2 .types snail_urchin_A jellyfish_A fishman_harpoon_A fishman_shaman_A
+hall: .chance 1 .types bloated_corpse_A snail_urchin_A snail_urchin_A 
+hall: .chance 1 .types bloated_corpse_A fishman_harpoon_A jellyfish_A 
+hall: .chance 2 .types bloated_corpse_A fishman_harpoon_A fishman_shaman_A 
+hall: .chance 1 .types bloated_corpse_A bloated_corpse_A jellyfish_A 
+hall: .chance 1 .types jellyfish_A cultist_brawler_A cultist_witch_A 
+hall: .chance 1 .types cultist_brawler_A fishman_harpoon_A cultist_witch_A 
+hall: .chance 1 .types cultist_brawler_A cultist_brawler_A fishman_shaman_A 
+hall: .chance 1 .types fishman_harpoon_A fishman_harpoon_A fishman_shaman_A madman_A
+hall: .chance 1 .types brigand_blood_A brigand_cutthroat_A brigand_fusilier_A 
+hall: .chance 1 .types brigand_cutthroat_A brigand_cutthroat_A brigand_fusilier_A 
+hall: .chance 1 .types brigand_cutthroat_A brigand_cutthroat_A brigand_fusilier_A brigand_fusilier_A
+room: .chance 2 .types fishman_harpoon_A fishman_harpoon_A fishman_harpoon_A fishman_harpoon_A
+room: .chance 1 .types fishman_harpoon_A fishman_harpoon_A fishman_shaman_A fishman_shaman_A
+room: .chance 2 .types octotank_A fishman_harpoon_A fishman_harpoon_A fishman_shaman_A
+room: .chance 1 .types snail_urchin_A octotank_A fishman_harpoon_A fishman_shaman_A
+room: .chance 1 .types fishman_harpoon_A jellyfish_A fishman_harpoon_A fishman_shaman_A
+room: .chance 1 .types octotank_A jellyfish_A fishman_harpoon_A fishman_shaman_A
+room: .chance 1 .types bloated_corpse_A snail_urchin_A fishman_harpoon_A fishman_shaman_A
+room: .chance 1 .types bloated_corpse_A octotank_A fishman_harpoon_A fishman_shaman_A
+room: .chance 1 .types octotank_A fishman_harpoon_A bloated_corpse_A fishman_shaman_A
+room: .chance 1 .types octotank_A fishman_harpoon_A octotank_A fishman_shaman_A
+room: .chance 1 .types bloated_corpse_A octotank_A jellyfish_A jellyfish_A
+room: .chance 1 .types fishman_harpoon_A cultist_brawler_A cultist_brawler_A cultist_witch_A
+room: .chance 1 .types cultist_brawler_A fishman_harpoon_A cultist_witch_A fishman_harpoon_A
+room: .chance 1 .types cultist_brawler_A fishman_harpoon_A cultist_witch_A fishman_shaman_A
+room: .chance 1 .types octotank_A cultist_brawler_A cultist_witch_A fishman_harpoon_A
+room: .chance 2 .types octotank_A cultist_brawler_A cultist_witch_A fishman_shaman_A
+room: .chance 1 .types octotank_A cultist_brawler_A madman_A fishman_harpoon_A
+room: .chance 1 .types brigand_blood_A brigand_cutthroat_A brigand_fusilier_A 
+boss: .chance 1 .types siren_A   
+boss: .chance 1 .types drowned_captain_A   
+stall: .chance 2 .types cultist_brawler_A cultist_witch_A  
+stall: .chance 2 .types fishman_harpoon_A fishman_harpoon_A  
+stall: .chance 1 .types octotank_A fishman_harpoon_A  
+named: .name summon_mash_shambler .chance 1 .types shambler_A

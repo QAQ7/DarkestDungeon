@@ -17,7 +17,9 @@ public abstract class Creture : MonoBehaviour
 
     public abstract void valueInit();
 
-    public abstract void animatorInit();
+    public void animatorInit() {
+        animator = this.gameObject.GetComponent<Animator>();
+    }
 
     public void roundStateAction() {
         for (int i = 0; i < states.Count; i++) {

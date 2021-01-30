@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     public static GameObject[] gameObjects;
     public static GameObject[] heros;
     public static GameObject[] monsters;
+    public static GameObject[] skillButtons;
     public static List<GameObject> actionList;
     public int counter = 0;
     public GameObject controlRole;
@@ -19,6 +21,8 @@ public class GameManager : MonoBehaviour
     public bool isOnlyDoOneFuncUndone = true;
     bool anyHeroLive = true;
     bool anyMonsterLive = true;
+    public static Dictionary<string, Sprite> sprites = new Dictionary<string, Sprite>();
+
     public enum GameState {
         StageBegin,
         RoundBegin,
@@ -34,6 +38,13 @@ public class GameManager : MonoBehaviour
         canvas = GameObject.Find("Canvas");
         heros = GameObject.FindGameObjectsWithTag("Hero");
         monsters = GameObject.FindGameObjectsWithTag("Monster");
+        object[] objSkillButtons = GameObject.FindObjectsOfType<Skill_Button>();
+        skillButtons = new GameObject[objSkillButtons.Length];
+        for (int i = 0; i < skillButtons.Length; i++)
+        {
+            skillButtons[i] = (objSkillButtons[i] as Skill_Button).gameObject;
+        }
+        Array.Sort(skillButtons, (a, b) => a.name.CompareTo(b.name));
         object[] objContainCreture = GameObject.FindObjectsOfType<Creture>();
         gameObjects = new GameObject[objContainCreture.Length];
         for (int i = 0; i < gameObjects.Length; i++) {
@@ -41,6 +52,12 @@ public class GameManager : MonoBehaviour
         }
         actionList = new List<GameObject>(gameObjects);
         actionListSort();
+        TextAsset t = Resources.Load<TextAsset>("skill.sprite.path");
+        string json = t.text;
+        SkillJson skillJson = JsonUtility.FromJson<SkillJson>(json);
+        for (int i = 0; i < skillJson.SkillList.Count; i++) {
+            sprites.Add(skillJson.SkillList[i].name, Resources.Load<Sprite>(skillJson.SkillList[i].path));
+        }
     }
     void Start()
     {
@@ -201,6 +218,11 @@ public class GameManager : MonoBehaviour
         } 
         source = null;
         controlRole = null;
+        for (int i = 0; i < skillButtons.Length; i++) {
+            if (skillButtons[i].GetComponent<Skill>() != null) {
+                Destroy(skillButtons[i].GetComponent<Skill>());
+            }
+        }
         counter++;
         for (int i = 0; i < gameObjects.Length; i++) {
             if (gameObjects[i].tag == "Hero")

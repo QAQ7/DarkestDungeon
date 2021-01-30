@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Skill_Button.cs" />
      <Compile Include="Assets\Scripts\Skill_HpAddBuff.cs" />
      <Compile Include="Assets\Scripts\Skill_NormalAcctack.cs" />
+     <Compile Include="Assets\Scripts\SkillJson.cs" />
      <Compile Include="Assets\Scripts\State.cs" />
      <Compile Include="Assets\spine-csharp\Animation.cs" />
      <Compile Include="Assets\spine-csharp\AnimationState.cs" />
