@@ -36,7 +36,11 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         canvas = GameObject.Find("Canvas");
-        heros = GameObject.FindGameObjectsWithTag("Hero");
+        //heros = GameObject.FindGameObjectsWithTag("Hero");
+        heros = GetHeros();
+        //HerosJson herosjson = JsonManager.loadFromResource<HerosJson>("hero");
+        //Debug.Log(herosjson.heros[0].hp);
+
         monsters = GameObject.FindGameObjectsWithTag("Monster");
         object[] objSkillButtons = GameObject.FindObjectsOfType<Skill_Button>();
         skillButtons = new GameObject[objSkillButtons.Length];
@@ -89,6 +93,20 @@ public class GameManager : MonoBehaviour
                     break;
             }
         }
+    }
+
+    public GameObject[] GetHeros() {
+        HerosJson herosjson = JsonManager.loadFromFile<HerosJson>("save/save.json");
+        GameObject[] newheros = new GameObject[herosjson.heros.Count];
+        GameObject cur;
+        //Debug.Log(herosjson.ToString());
+        for (int i = 0; i < herosjson.heros.Count; i++) {
+            cur = Resources.Load<GameObject>(@"Prefabs/" + herosjson.heros[i].type);
+            //Debug.Log(herosjson.heros[i].type);
+            cur.GetComponent<Hero>().setData(herosjson.heros[i]);
+            newheros[i] = Instantiate(cur);
+        }
+        return newheros;
     }
 
     public void nextState() {

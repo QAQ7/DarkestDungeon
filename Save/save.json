@@ -1,0 +1,17 @@
+{
+	"heros":
+	[
+		{
+			"hp": 5,
+			"mp": 5,
+			"speed": 5,
+			"type": "leper",
+			"skillList":
+			[
+				{
+					"name":"Skill_NormalAcctack"
+				}
+			]
+		}
+	]
+}

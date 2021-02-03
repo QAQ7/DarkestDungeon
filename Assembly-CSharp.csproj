@@ -55,7 +55,8 @@
      <Compile Include="Assets\Scripts\Creture.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Hero.cs" />
-     <Compile Include="Assets\Scripts\Hero_Rider.cs" />
+     <Compile Include="Assets\Scripts\HeroJson.cs" />
+     <Compile Include="Assets\Scripts\JsonManager.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\Monster_Ancestor.cs" />
      <Compile Include="Assets\Scripts\Monster_Goblin.cs" />

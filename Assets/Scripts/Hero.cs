@@ -4,15 +4,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class Hero : Creture
+public class Hero : Creture
 {
     public string[] skillName;
+    public HeroJson data;
 
     // Start is called before the first frame update
 
     private void Awake()
     {
         
+    }
+
+    public override void valueInit()
+    {
+        this.skillName = SkillList.toArray(data.skillList);
+        for (int i = 0; i < skillName.Length; i++) {
+            Type type = Type.GetType(skillName[i]);
+            this.gameObject.AddComponent(type);
+        }
+        this.hp = data.hp;
+        this.mp = data.mp;
+        this.speed = data.speed;
     }
 
     public void skillButtonInit()
@@ -45,10 +58,15 @@ public abstract class Hero : Creture
         }
     }
 
-    void Start()
-    {
+    public void setData(HeroJson data) {
+        this.data = data;
         superInit();
         skillButtonInit();
+    }
+
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame
